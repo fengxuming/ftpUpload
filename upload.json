@@ -1,0 +1,10 @@
+{
+  "rootDictionary":"/Users/fengxuming/Downloads/upload",
+  "servers":[{
+    "host":"127.0.0.1",
+    "path":"/test1",
+    "username":"fengxuming",
+    "password":"123456",
+    "ignoreDictionary":"test"
+  }]
+}
