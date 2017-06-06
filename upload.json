@@ -1,10 +1,14 @@
 {
-  "rootDictionary":"/Users/fengxuming/Downloads/upload",
+  "rootDictionary":"upload",
   "servers":[{
     "host":"127.0.0.1",
-    "path":"/test1",
+    "path":"test1/test2",
+    "port":21,
     "username":"fengxuming",
-    "password":"123456",
-    "ignoreDictionary":"test"
-  }]
+    "password":"friedrich"
+
+  }],
+  "ignoreDictionary":"test",
+  "checkTime":5000
+
 }

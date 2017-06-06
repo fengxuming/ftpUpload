@@ -10,6 +10,7 @@ import java.io.FileReader;
 public class ReadJson {
     public static JsonObject readJson(String dictionary)
     {
+        //调用gson包，解析json文件
         JsonParser jsonParser = new JsonParser();
         try{
             JsonObject json = (JsonObject)jsonParser.parse(new FileReader(dictionary));
@@ -22,4 +23,5 @@ public class ReadJson {
         }
         return null;
     }
+
 }
